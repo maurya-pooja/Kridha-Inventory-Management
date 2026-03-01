@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+.billing-wrapper{
+    padding: 10px;
+    animation: fadeIn 0.5s ease-in-out;
+}
+.search-paper{
+    padding: 25px !important;
+    border-radius: 20px !important;
+    background-color: rgba(255, 255, 255, 0.95) !important;
+    border: 1px solid #e2e8f0;
+}
+.billing-title{
+    color: #1e293b;
+    font-weight: 800 !important;
+    margin-bottom: 30px !important;
+    text-align: center;
+}
+.billing-table-container{
+    border-radius: 20px !important;
+    overflow: hidden;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1) !important;
+}
+.billing-table-header{
+    background-color: #1e293b !important;
+}
+.billing-header-cell{
+    color: white !important;
+    font-weight: bold !important;
+}
+.total-box{
+    background-color: #f8fafc;
+    padding: 20px;
+    border-top: 2px solid #e2e8f0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.grand-total-text{
+    color: #1e293b;
+    font-weight: 900 !important;
+    margin-bottom: 10px !important;
+}
+
+.add-bill-btn{
+    background-color: #10b981 !important;
+    font-weight: bold !important;
+    padding: 10px !important;
+    font-weight: bold !important;
+    text-transform: none !important;
+    border-radius: 10px !important;
+}
+.print-btn{
+    background-color: #10b981 !important;
+    font-weight: bold !important;
+    padding: 10px 30px !important;
+    border-radius: 10px !important;
+    text-transform: none !important;
+}
+@keyframes fadeIn{
+    from{opacity: 0; transform: translateY(10px);}
+    from{opacity: 1; transform: translateY(0px);}
+}

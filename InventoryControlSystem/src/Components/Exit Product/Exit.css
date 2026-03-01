@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+.exit-product-wrapper{
+    width: 100%;
+    padding: 20px;
+    animation: fadeIn 0.5s ease-in-out;
+}
+.exit-paper{
+    padding: 40px !important;
+    border-radius: 25px !important;
+    background-color: rgba(255, 255, 255, 0.95) !important;
+    box-shadow: 0 12px 24px rgba(0,0,0,0.15) !important;
+    border-top: 5px solid #ef4444;
+}
+.exit-title{
+    color: #1e293b;
+    font-weight: 800 !important;
+    margin-bottom: 30px !important;
+    text-align: center;
+}
+.exit-field{
+    margin-bottom: auto15px !important;
+}
+.exit-field .MuiOutlinedInput-root{
+    border-radius: 12px !important;
+}
+.confirm-exit-btn{
+    background: linear-gradient(45deg,#ef4444,#dc2626) !important;
+    color: white !important;
+    padding: 12px;
+    font-weight: bold !important;
+    font-size: 1.1rem !important;
+    border-radius: 12px !important;
+    text-transform: none !important;
+    margin-top: 10px !important;
+    transition: 0.3s ease !important;
+}
+.confirm-exit-btn:hover{
+    transform: scale(1.02);
+    box-shadow: 0 5px 15px rgba(239, 68, 68, 0.4);
+}
+@keyframes fadeIn{
+    from{opacity: 0; transform: translateY(10px);}
+    to{opacity: 1; transform: translateY(0);}
+}

@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+.main-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.form-container{
+    width: 100%;
+    max-width: 900px;
+}
+.form-title{
+    margin-bottom: 25px !important;
+    font-weight: 700 !important;
+    color: #2c3e50;
+    text-align: left;
+}
+.custom-card{
+    background-color: #ffff !important;
+    padding: 40px !important;
+    border-radius: 15px !important;
+    border: 1px solid #e0e6ed !important;
+}
+.sub-title{
+    margin-bottom: 30px !important;
+    color: #7f8c8d;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+.save-btn{
+    background-color: #1976d2 !important;
+    padding: 12px 40px !important;
+    font-weight: bold !important;
+    text-transform: none !important;
+    border-radius: 8px !important;
+}
+@media (max-width:600px) {
+    .custom-card{
+        padding: 20px !important;
+    }
+}

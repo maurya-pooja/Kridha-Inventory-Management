@@ -1,0 +1,4 @@
+node_modules/
+Inventory-backend/node_modules/
+InventoryControlSystem/node_modules/
+.env
